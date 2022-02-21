@@ -1,0 +1,123 @@
+@charset "UTF-8";
+:root {
+    --cor0: #B3E3FF;
+    --cor1: #57839c;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #33647F;
+            
+}
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+
+}
+div.video {
+    background-color: #63bae9;
+    margin: 0px -10px 30px -10px;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(#B3E3FF), var(#57839c));
+    padding-top: 10px;
+    font-size: 1em;
+    text-shadow: 1px 2px 3px 4px;
+}
+header > h2 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+}
+nav {
+    text-align: left;
+    background-color: #57839c;
+    color:white;
+    padding: 3px;
+    box-shadow: 7px 3px 4px 2px rgba(0, 0, 0, 0.336);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: #22709b;
+    text-decoration: underline;
+    color: #B3E3FF;
+}
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    text-align: center;
+    background-color: #B3E3FF;
+    margin: auto;
+    padding: 10px;
+}
+main > h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#083838;
+    background-image: linear-gradient(to right, var(#79b6d6), transparent);
+
+}
+#titulao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(to right, var(#0392df), transparent);
+    text-align: left;
+}
+#f1 {
+    text-align: left;
+}
+aside {
+    background-color: #79b6d6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+}
+aside > ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3 {
+    background-color: #245169;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    background-color: #8FB6CC;
+    padding: 5px;
+    box-shadow: 5px 7px 5px 5px rgba(0, 0, 0, 0.76);
+}
+@media(max-width:1050px) {
+
+}
+@media(min-width:1051px){
+    
+}
